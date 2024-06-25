@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>권유리 포트폴리오</title>
+    <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+    <link rel="icon" href="./asset/img/ico_logo.svg"/>
+    <link rel="apple-touch-icon" href="./asset/img/ico_logo.svg"/>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+        <div class="header__navBase">
+            <div class="header__inner"> 
+            <h1 class="header__title"><img src="./asset/img/ico_logo.svg" alt="로고"></h1>
+            <nav class="header__nav">
+                <ul class="header__navList">
+                    <li class="header__navLink" data-target="#skill" onclick="fnMove(skill)">SKILL</li>
+                    <li class="header__navLink" data-target="#work" onclick="fnMove(work)">WORK</li>
+                    <li class="header__navLink" data-target="#contact" onclick="fnMove(contact)">CONTACT</li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <nav class="header__navDum">
+            <ul class="header__navDumList">
+                <li class="header__navDumLink" data-target="#skill" onclick="fnMove(skill)">SKILL</li>
+                <li class="header__navDumLink" data-target="#work" onclick="fnMove(work)">WORK</li>
+                <li class="header__navDumLink" data-target="#contact" onclick="fnMove(contact)">CONTACT</li>
+            </ul>
+        </nav>
+</header>
+        <div class="cursor"></div>
+        <div class="preLoader" id="preLoader">
+          <div class="preLoader__videoBox">
+            <video class="preLoader__video" loop autoplay muted>
+              <source src="./asset/img/70796-538877060_small.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="loaderContent">
+          <div class="loaderContent__counter">0</div>
+          <div class="loaderContent__copy"><p class="loaderContent__portfolioTxt">2024 Portfolio</p></div>
+        </div>
+        <main class="main">
+          <div class="main__inner">
+            <!-- index -->
+            <section class="section index">
+              <div class="inner">
+                <div class="index__intro">
+                  <div class="index__introTxt">
+                    <h2 class="index__introTit">EXPLORING<p class="index__introTit--gray">CHANGE</p></h2>
+                  </div>
+                </div>
+                <div class="index__about">
+                  <img class="index__aboutImg"src="./asset/img/about_img2.svg" alt="">
+                  <div class="index__aboutTxt">
+                    <h2 class="index__aboutTit">안녕하세요</h2>
+                    <div class="index__aboutSub">
+                      <p>웹퍼블리셔 권유리입니다.<br />
+                        저는 보다 나은 사용자 경험을 제공하고<br /> 재사용성 높은 코드 개발하기 위해<br />
+                        끊임없이 노력하고 있습니다. <br />
+                        그리고 웹 표준과 웹 접근성 준수하며,<br />
+                        성공적인 프로젝트를 위해 기획, 디자인, 개발팀과의<br /> 
+                        원활한 협력과 소통에 힘쓰고 있습니다. <br /> 
+                        <strong>제 포트폴리오에 관심을 가져주셔서 감사합니다!</strong>  
+                      </p>
+                    </div> 
+                  </div>
+                  
+                </div>
+              </div>
+            </section>
+            <!-- index -->
+            <!-- skill -->
+            <section class="section skill" id="skill">
+              <div class="inner">
+                  <div class="skill__stickyBar">
+                    <h2 class="skill__stickyitem">SKILL</h2>
+                  </div>
+                  <div class="skill__clients">
+                    <div class="skill__clientsRow">
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_html.svg" alt="html">
+                        <p class="skill__clientsTxt">HTML</p>
+                      </div>
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_css.svg" alt="CSS">
+                        <p class="skill__clientsTxt">CSS</p>
+                      </div>
+                    </div>
+                    <div class="skill__clientsRow">
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_js.svg" alt="javascript ES6">
+                        <p class="skill__clientsTxt">ES6</p>
+                      </div>
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_jquery.svg" alt="jquery">
+                        <p class="skill__clientsTxt">Jquery</p>
+                      </div>
+                    </div>
+                    <div class="skill__clientsRow">
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_git.svg" alt="git">
+                        <p class="skill__clientsTxt">Git</p>
+                      </div>
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_github.svg" alt="github">
+                        <p class="skill__clientsTxt">github</p>
+                      </div>
+                    </div>
+                    <div class="skill__clientsRow">
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_sass.svg" alt="sass">
+                        <p class="skill__clientsTxt">Sass</p>
+                      </div>
+                      <div class="skill__clientsLogo">
+                        <img class="skill__clientsImg" src="./asset/img/ico_vs.svg" alt="vscode">
+                        <p class="skill__clientsTxt">VScode</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </section>
+            <!--// skill -->
+            <!-- work -->
+            <section class="section work" id="work">
+              <div class="inner">
+                <div class="work__txtWrap">
+                  <h2 class="work__tit">WORK</h2>
+                </div>
+                <div class="work__slideWrap">
+                  <div class="work__pinContent work__pinContent--forward">
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://bizbank.shinhan.com/main.html" alt="신한은행 기업인터넷뱅킹" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_1.svg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>신한은행 기업인터넷뱅킹</h3>
+                          <p>2023.6 ~ 2023.9</p>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                      <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://bizbank.cu.co.kr/" alt="신협 기업인터넷뱅킹" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_2.svg" alt="">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>신협 기업인터넷뱅킹</h3>
+                          <p>2023.6 ~ 2023.8</p>
+                          <p class="singularity"><span># 구축</span><span># vue</span></p>
+                        </div>
+                      </a>
+                    </div>  
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.notion.so/FLOW-SMART-e1cf0727161940eb88572eab791d3c8f" alt="포스코 FLOW SMART" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_3.svg" alt="">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>포스코 FLOW SMART<br /> 통합물류포탈</h3>
+                          <p>2023.3 ~ 2023.6</p>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.lguplus.com/" alt="LG U+" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_4.svg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>LG U+</h3>
+                          <p>2022.9 ~ 2023.3</p>
+                          <p class="singularity"><span># 운영</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://estore.kr.canon/main" alt="캐논코리아 이스토어" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_5.svg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>캐논코리아 이스토어</h3>
+                          <p>2022.8 ~ 2023.9</p>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.tourputt.com/" link="_blank" alt="TOURPUTT">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_9.png" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>TOURPUTT</h3>
+                          <p>2021.3 ~ 2022.2</p>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                  </div> 
+                  <div class="work__pinContent work__pinContent--reverse">
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://m.m-teacher.co.kr/pages/mid/Main.mrn" alt="미래엔" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_10.svg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>미래엔 엠티쳐</h3>
+                          <p class="singularity"><span># 컨텐츠</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.notion.so/be1da4c74cc64f258728b333021f1476" alt="천재교육" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_11.jpg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>천재교육 중학교 영어 컨텐츠</h3>
+                          <p class="singularity"><span># 컨텐츠</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.notion.so/PALLETE-b8a60ecd488441cb9f2739cae2c5bd07" alt="pallete" target="_blank">
+                        <div class="work__slideItemTxt">
+                          <h3>웹툰 서비스 pallete</h3>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.cjhputting.co.kr/" alt="최종환 퍼팅아카데미" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_8.png" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>최종환 퍼팅아카데미</h3>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.notion.so/995960692cdf42afa7cb807d0ff0db03" alt="두산건설 안전보건 시스템" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_7.svg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>두산건설 안전보건 시스템</h3>
+                          <p class="singularity"><span># 구축</span></p>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="work__slideItem">
+                      <a class="work__slideItemLink" href="https://www.busanbank.co.kr/ib20/mnu/BHP00001" alt="부산은행" target="_blank">
+                        <div class="work__slideItemImgWrap">
+                          <img class="work__slideItemImg" src="./asset/img/work_6.svg" alt="로고">
+                        </div>
+                        <div class="work__slideItemTxt">
+                          <h3>부산은행 접근성 수정 <br /> 부분 리뉴얼</h3>
+                          <p class="singularity"><span># 접근성</span></p>
+                        </div>
+                      </a>
+                    </div>
+                  </div> 
+                </div>
+              </div> 
+            </section>
+            <!--// work -->
+            <!-- contact -->
+            <section class="section contact" id="contact">
+             <div class="inner">
+              <div class="contact__txtWrap">
+                <h2 class="contact__tit">
+                  <span>CONTACT</span> 
+                </h2>
+                <p class="contact__sub">
+                  언제든지 연락주세요!
+                </p>
+                <div class="contact__box">
+                  <div class="contact__tel">
+                    <img class="contact__icoImg" src="./asset/img/ico_portrait.svg" alt="">
+                    <span class="contact__boxTxt">010.2605.4781</span>
+                  </div> 
+                  <div class="contact__mail">
+                    <img class="contact__icolImg" src="./asset/img/ico_email.svg" alt="">
+                    <span class="contact__boxTxt">jykil00700@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+             </div>
+             <div class="flow">
+              <div class="flow__boxText">
+                  <div class="flow__boxParagraph">2024 KWEN YOORI All rights reserved </div>
+                  <div class="flow__boxParagraph">2024 KWEN YOORI All rights reserved </div>
+                  <div class="flow__boxParagraph">2024 KWEN YOORI All rights reserved </div>
+                  <div class="flow__boxParagraph">2024 KWEN YOORI All rights reserved </div>
+              </div>
+          </div>
+            </section>
+            <!--// contact -->
+          </div>
+        </main>
+        
+        <footer class="footer"></footer>
+    </div>
+</body>
+<script src="./asset/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="./asset/js/vendor/swiper.min.js"></script>
+<script src="./asset/js/vendor/gsap.min.js"></script>
+<script src="./asset/js/vendor/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="./asset/js/vendor/locomotive-scroll.min.js"></script>
+<script src="./asset/js/vendor/TweenMax.js"></script>
+<script src="./asset/js/ui.js"></script>
+<script src="./asset/js/class/cursor.js"></script>
+<script src="./asset/js/class/navScroll.js"></script>
+<script src="./asset/js/class/indexAni.js"></script>
+<script src="./asset/js/class/skillEffect.js"></script>
+<script src="./asset/js/class/workPinAni.js"></script>
+
+<script>
+  // cursor 클래스 인스턴스 생성
+  const cursor1 = new Cursor();
+  // navScroll 클래스 인스턴스 생성
+  const navScroll1 = new NavScroll();
+  // indexAni 클래스 인스턴스 생성
+  const indexTextAni1 = new IndexTextAni();
+  // scrollEffect 클래스 인스턴스 생성
+  const scrollEffect1 = new SkillEffect();
+  // workSection 클래스 인스턴스 생성
+  const workPinAni1 = new WorkPinAni();
+
+  
+</script>
+</html>

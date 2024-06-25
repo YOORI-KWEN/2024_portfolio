@@ -1,0 +1,196 @@
+@charset "UTF-8";
+.loading {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #111111;
+  top: 0;
+}
+.loading__counter {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  color: #999999;
+  bottom: 50px;
+  right: 50px;
+  font-size: 10vw;
+  font-family: "Orelo SemiWide";
+  font-weight: 700;
+}
+
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 999999;
+  overflow: visible;
+  background-color: #165BDC;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: scale(1);
+}
+.cursor span {
+  color: transparent;
+  font-size: 15px;
+}
+
+.cursor.on {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cursor.on span {
+  color: #fff;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+}
+.header__inner {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
+  align-items: center;
+}
+.header__title {
+  flex: 1;
+}
+.header__titleImg {
+  width: 50px;
+  transform: scale(0%);
+}
+.header__navList {
+  display: flex;
+  gap: 20px;
+}
+.header__navLink {
+  font-size: 30px;
+  transform: translateY(-100%);
+}
+
+.section {
+  min-height: 100vh;
+}
+.section .inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section__txtWrap {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section__tit {
+  background-color: transparent;
+  overflow: hidden;
+  font-size: 200px;
+}
+.section__tit span {
+  display: block;
+  line-height: 1;
+  transform: translateY(100%);
+  font-family: Orelo SemiWide !important;
+}
+
+.index__bgVideoWrap {
+  position: relative;
+  transform: scale(100%);
+  overflow: hidden;
+  margin: 0 auto;
+}
+.index__bgVideo {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.skill {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #165BDC;
+  overflow: hidden;
+}
+.skill__txtWrap {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skill__tit {
+  background-color: transparent;
+  color: #fff;
+  font-size: 130px;
+}
+.skill__tit span {
+  display: block;
+  line-height: 1;
+  font-family: Orelo SemiWide !important;
+}
+.skill__slideWrap {
+  width: calc(100% - 450px);
+  margin-left: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.skill__pinContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skill .pinContent01 {
+  transform: translateY(150vh);
+}
+.skill .pinContent02 {
+  transform: translateY(120vh);
+}
+.skill__slideItem {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  width: 230px;
+}
+
+.skill__slideWrap {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill__pinContent {
+  display: flex;
+  flex-direction: column; /* 세로 슬라이드 */
+  height: 400vh; /* 슬라이드 개수에 따라 조정 */
+}
+
+.skill__slideItem {
+  height: 50vh; /* 각 슬라이드 높이를 설정 (40vh로 설정하면 화면에 2개 반 정도 보임) */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.skill__slideItemImg {
+  width: 50%;
+  height: auto;
+}/*# sourceMappingURL=common.css.map */
