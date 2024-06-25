@@ -68,7 +68,7 @@ textarea,
 button {
   border: none;
   color: #111;
-  font-family: "Roboto", "NotoSansKR", Arial, AppleGothic, verdana, sans-serif;
+  font-family: "NotoSansKR", "Roboto", Arial, AppleGothic, verdana, sans-serif;
 }
 
 ul,
@@ -172,4 +172,4 @@ textarea:-ms-input-placeholder {
 
 textarea::-ms-input-placeholder {
   color: #999;
-}/*# sourceMappingURL=reset.css.map */
+}
