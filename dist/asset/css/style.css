@@ -68,7 +68,7 @@ textarea,
 button {
   border: none;
   color: #111;
-  font-family: "Roboto", "NotoSansKR", Arial, AppleGothic, verdana, sans-serif;
+  font-family: "NotoSansKR", "Roboto", Arial, AppleGothic, verdana, sans-serif;
 }
 
 ul,
@@ -142,55 +142,23 @@ button {
   box-sizing: border-box;
 }
 
-input::-ms-clear, input::-ms-reveal {
-  display: none;
-}
-
-input::-webkit-input-placeholder,
-input::-moz-placeholder,
-input:-ms-input-placeholder,
-input::-ms-input-placeholder,
-input::placeholder,
-textarea::-webkit-input-placeholder,
-textarea::-moz-placeholder,
-textarea:-ms-input-placeholder,
-textarea::-ms-input-placeholder {
-  color: #999;
-}
-
-input:-ms-input-placeholder {
-  color: #999;
-}
-
-input::-ms-input-placeholder {
-  color: #999;
-}
-
-textarea:-ms-input-placeholder {
-  color: #999;
-}
-
-textarea::-ms-input-placeholder {
-  color: #999;
-}
-
 @font-face {
   font-family: "NotoSansKR";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("../fonts/noto-sans-kr-v13-latin_korean-regular.woff2") format("woff2"), url("../fonts/noto-sans-kr-v13-latin_korean-regular.woff") format("woff"), url("../fonts/noto-sans-kr-v13-latin_korean-regular.ttf") format("truetype"), url("../fonts/noto-sans-kr-v13-latin_korean-regular.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+  src: local(""), url("../fonts/noto-sans-kr-v13-latin_korean-regular.woff2") format("woff2"), url("../fonts/noto-sans-kr-v13-latin_korean-regular.woff") format("woff"), url("../fonts/NotoSansKR-Regular.ttf") format("truetype"), url("../fonts/noto-sans-kr-v13-latin_korean-regular.svg#NotoSansKR") format("svg"); /* Legacy iOS */
 }
 @font-face {
   font-family: "NotoSansKR";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("../fonts/noto-sans-kr-v13-latin_korean-500.woff2") format("woff2"), url("../fonts/noto-sans-kr-v13-latin_korean-500.woff") format("woff"), url("../fonts/noto-sans-kr-v13-latin_korean-500.ttf") format("truetype"), url("../fonts/noto-sans-kr-v13-latin_korean-500.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+  src: local(""), url("../fonts/noto-sans-kr-v13-latin_korean-500.woff2") format("woff2"), url("../fonts/noto-sans-kr-v13-latin_korean-500.woff") format("woff"), url("../fonts/nNotoSansKR-Medium.ttf") format("truetype"), url("../fonts/noto-sans-kr-v13-latin_korean-500.svg#NotoSansKR") format("svg"); /* Legacy iOS */
 }
 @font-face {
   font-family: "NotoSansKR";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("../fonts/noto-sans-kr-v13-latin_korean-700.woff2") format("woff2"), url("../fonts/noto-sans-kr-v13-latin_korean-700.woff") format("woff"), url("../fonts/noto-sans-kr-v13-latin_korean-700.ttf") format("truetype"), url("../fonts/noto-sans-kr-v13-latin_korean-700.svg#NotoSansKR") format("svg"); /* Legacy iOS */
+  src: local(""), url("../fonts/noto-sans-kr-v13-latin_korean-700.woff2") format("woff2"), url("../fonts/noto-sans-kr-v13-latin_korean-700.woff") format("woff"), url("../fonts/NotoSansKR-Bold.ttf") format("truetype"), url("../fonts/noto-sans-kr-v13-latin_korean-700.svg#NotoSansKR") format("svg"); /* Legacy iOS */
 }
 @font-face {
   font-family: "Roboto";

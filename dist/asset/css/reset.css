@@ -68,7 +68,7 @@ textarea,
 button {
   border: none;
   color: #111;
-  font-family: "Roboto", "NotoSansKR", Arial, AppleGothic, verdana, sans-serif;
+  font-family: "NotoSansKR", "Roboto", Arial, AppleGothic, verdana, sans-serif;
 }
 
 ul,
@@ -140,36 +140,4 @@ button {
 }
 *:after, *:before {
   box-sizing: border-box;
-}
-
-input::-ms-clear, input::-ms-reveal {
-  display: none;
-}
-
-input::-webkit-input-placeholder,
-input::-moz-placeholder,
-input:-ms-input-placeholder,
-input::-ms-input-placeholder,
-input::placeholder,
-textarea::-webkit-input-placeholder,
-textarea::-moz-placeholder,
-textarea:-ms-input-placeholder,
-textarea::-ms-input-placeholder {
-  color: #999;
-}
-
-input:-ms-input-placeholder {
-  color: #999;
-}
-
-input::-ms-input-placeholder {
-  color: #999;
-}
-
-textarea:-ms-input-placeholder {
-  color: #999;
-}
-
-textarea::-ms-input-placeholder {
-  color: #999;
 }

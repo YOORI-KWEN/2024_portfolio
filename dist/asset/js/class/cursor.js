@@ -37,7 +37,6 @@ class Cursor {
         });
     
         window.addEventListener("mousemove", (e) => {
-          console.log(this.mouseX);
           gsap.to(this.cursor, {
             duration: 0.00001,
             x: e.clientX,
